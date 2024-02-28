@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Debit Card</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    
+   
+    <div class="container">
+
+        <!-- front face -->
+        <div class="card">
+           <div class="images">
+            <img class="logo" src="./images/mastercard-svgrepo-com.svg" alt="">
+            <p> Master Card</p> 
+            <img class="chip" src="./images/chip.png" alt="">
+           </div>
+           <div class="number">
+            <p style="font-size: 16px; margin-left: 10px;"> Card Number</p>
+            <p style="font-size: 20px; margin-left: 10px; margin-top: 0; letter-spacing: 2px;"> 8050 5040 2030 3042</p>
+           </div>
+           <div class="details">
+           <p style="font-size: 20px; margin-left: 10px; margin-right: 0px !important;">Dipankar Kapoor</p>
+            <div><p style="font-size: 20px; margin-right: 5px !important;">Valid Thru <br> 05/28</p></div>  
+           </div>
+
+         </div>
+
+       <!-- back face -->
+        <div class="card back-face visibility-hidden">
+        <div class="back-style"> 
+              For customer service call +977 4343 3433 or email at mastercard@gmail.com
+        <div class="magnetic-strip"> </div>
+        </div>
+
+        <div class="white-strip">
+        <div class="cvv">
+         <i>CVV 853</i>
+        </div>    
+        </div>
+        <div class="random-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Doloremque maiores consequatur neque. In laboriosam laborum quae repellat neque magnam accusantium sequi
+        </div>
+
+    </div>
+
+    <!-- Circle divs -->
+    <div class="circle-one"></div>
+    <div class="circle-two"></div>
+
+    <!-- Jquery and JS attached -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./index.js" charset="utf-8"></script>    
+
+</body>
+</html>
